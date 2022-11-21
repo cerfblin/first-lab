@@ -17,7 +17,7 @@ public class Triangle implements Comparable<Triangle>{
                 throw new Exception();
             }
         } catch (Exception e){
-            System.out.println("EXCEPTION!!! Треугольник не может быть задан");
+            System.out.println("Треугольник не может быть задан");
         }
         this.title = setTitle();
     }
@@ -31,7 +31,7 @@ public class Triangle implements Comparable<Triangle>{
                 throw new Exception();
             }
         }catch (Exception e){
-            System.out.println("С такими сторонами(точкмами) треугольников не сущетсвует");
+            System.out.println("Треугольник не может быть задан");
         }
         this.title = setTitle();
     }
